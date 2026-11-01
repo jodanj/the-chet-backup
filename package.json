@@ -1,0 +1,15 @@
+{
+  "name": "the-chet",
+  "version": "1.0.0",
+  "description": "idk like a cool website",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "tail": "wrangler tail"
+  },
+  "devDependencies": {
+    "wrangler": "^3.114.0"
+  }
+}
